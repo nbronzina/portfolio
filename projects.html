@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nicolás Bronzina</title>
+<style>
+  /* Estilos para los encabezados y párrafos */
+  h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /* Estilos para las imágenes */
+  img {
+    float: left; /* Alinea la imagen static.png a la izquierda */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+  }
+
+  /* Estilos para la línea divisoria */
+  hr {
+    border: none;
+    border-top: 1px double #000;
+    margin: 30px 0;
+  }
+
+  /* Estilos para el menú */
+  nav {
+    text-align: right; /* Alinea el texto del menú a la derecha */
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  /* Estilos para el menú desplegable */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+ .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #CC9966;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Estilos para centrar las imágenes y sus textos */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .column {
+    text-align: center;
+    margin: 0 20px; /* Espacio entre las columnas */
+  }
+</style>
+</head>
+<body style="background-color: #FFCC99;">
+<nav>
+  <ul>
+    <li><a href="About.html">About</a></li>
+    <li class="dropdown">
+      <a href="projects.html">Projects</a>
+      <div class="dropdown-content">
+        <a href="#futuresdesign">Futures Design</a>
+        <a href="uxdesign">UX Design</a>
+      </div>
+    </li>
+    <li><a href="writing.html">Writing</a></li>
+  </ul>
+</nav>
+<a href="index.html" style="color: #333; text-decoration: none; display: block;">
+<h1 style="color: black;">Hello!</h1>
+<h2 style="color: black;">I’m Nicolás Bronzina, an Argentinean Design Researcher living in Madrid</h2>
+<p style="color: black;"><img src="img/static.png" alt="" width="18"> The website is programmed based on HTML code from a text editor on my Mac computer based on static sites. In addition, I am making a gradual transition to add a solar type power supply.</p>  
+<hr>
+</a>
+<div class="container">
+  <div class="column">
+    <figure>
+      <img src="img/Dither3.png" alt="" width="600" height="auto">
+      <figcaption>
+        <h3>Futures Design</h3>
+      </figcaption>
+    </figure>
+  </div>
+  <div class="column">
+    <figure>
+      <img src="img/Dither1.png" alt="" width="600" height="auto">
+      <figcaption>
+        <h3>UX Design</h3>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+<hr>
+<p style="text-align: center;"> You can learn a little more about me on <a href="https://www.instagram.com/nbronzina">Instagram</a>, contact me on <a href="https://www.linkedin.com/in/nicolasbronzina">LinkedIn</a>, read me on <a href="https://www.medium.com/@nbronzina">Medium</a>, and/or just <a href="mailto:nicolas.bronzina.com">email me</a></p>
+</body>
+</html>
